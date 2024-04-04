@@ -12,18 +12,20 @@ body{
     width: 100vw;
    
 }
-
-.header > h1{
-    width: 20%;
-    size: 30px;
-    color: black;
+ .header{
+    display: block;
     position: absolute;
-    top: 5%;
+    top: 8%;
     left: 5%;
-    display: flex;
-    justify-content: center;
-    
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+.header > h1,h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
 }
+
 
 .admin{
     position: absolute;
@@ -36,16 +38,24 @@ body{
     height: 50%;
     width: 100%;
 }
-.avt-img{
-    display: flex;
+.avt-img{ 
+    display: block;
     font-size: 20px;
 }
 .avt-img img{
-    height: 40%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
     object-fit: cover; 
     margin-bottom: 40px; 
     margin-top: 20px;
+    margin-left: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.avt-img p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
