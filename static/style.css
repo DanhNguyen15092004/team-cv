@@ -52,23 +52,48 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .avt-img p{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 15%;
+    margin-top: 5px;
+    margin-bottom: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .content{
     position: absolute;
-    border: 5px solid blue;
+    border: 5px solid rgba(67, 107, 102, 0.536);
     width: 70%;
     height: 95%;
     color: black;
     top: 3%;
     left: 28%;
-    background: white;
+    background: linear-gradient(to left, #ccc8c800, #f0eceb00);
+    display: flex;
 }
-
+.left-content{
+    flex: 1;
+    width: 100%;
+    margin: 20px;
+    
+}
+.right-content{
+    flex: 1;
+    width: 100%;
+    margin: 20px;
+}
+hr{
+    height: 4px;
+    background: rgb(119, 63, 96);
+    margin: 10px 0px 25px 0px;
+}
+.left-content h1, .right-content h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.about-me p{
+    margin-bottom: 10px;
+}
 
 
