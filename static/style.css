@@ -95,5 +95,15 @@ hr{
 .about-me p{
     margin-bottom: 10px;
 }
+.icon{
+    font-size: 40px;
+    margin:10px;
+}
 
+.icon:hover{
+    cursor: pointer;
+}
+.title{
+    contain: content;
+}
 
