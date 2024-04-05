@@ -95,5 +95,31 @@ hr{
 .about-me p{
     margin-bottom: 10px;
 }
+.icon{
+    font-size: 40px;
+    margin:10px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color:white;
+}
+.title {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed for spacing between elements */
+}
 
 
+.title h1 {
+    display: inline;
+    margin-left: 5px; /* Adjust as needed for spacing between icon and text */
+}
+
+.title i {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.text{
+    font-size: 18px;
+}
