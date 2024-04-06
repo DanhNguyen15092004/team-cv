@@ -12,18 +12,20 @@ body{
     width: 100vw;
    
 }
-
-.header > h1{
-    width: 20%;
-    size: 30px;
-    color: black;
+ .header{
+    display: block;
     position: absolute;
-    top: 5%;
+    top: 8%;
     left: 5%;
-    display: flex;
-    justify-content: center;
-    
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+.header > h1,h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
 }
+
 
 .admin{
     position: absolute;
@@ -36,29 +38,62 @@ body{
     height: 50%;
     width: 100%;
 }
-.avt-img{
-    display: flex;
+.avt-img{ 
+    display: block;
     font-size: 20px;
 }
 .avt-img img{
-    height: 40%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
     object-fit: cover; 
     margin-bottom: 40px; 
     margin-top: 20px;
+    margin-left: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.avt-img p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .content{
     position: absolute;
-    border: 5px solid blue;
+    border: 5px solid rgba(67, 107, 102, 0.536);
     width: 70%;
     height: 95%;
     color: black;
     top: 3%;
     left: 28%;
-    background: white;
+    background: linear-gradient(to left, #ccc8c800, #f0eceb00);
+    display: flex;
 }
-
+.left-content{
+    flex: 1;
+    width: 100%;
+    margin: 20px;
+    
+}
+.right-content{
+    flex: 1;
+    width: 100%;
+    margin: 20px;
+}
+hr{
+    height: 4px;
+    background: rgb(119, 63, 96);
+    margin: 10px 0px 25px 0px;
+}
+.left-content h1, .right-content h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.about-me p{
+    margin-bottom: 10px;
+}
 
 
